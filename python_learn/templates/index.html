@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>简单的乘法计算器</title>
+</head>
+<body>
+    <h1>简单的乘法计算器</h1>
+    <form method="post">
+        <label>第一个数字: <input type="text" name="num1" required></label><br><br>
+        <label>第二个数字: <input type="text" name="num2" required></label><br><br>
+        <button type="submit">计算乘积</button>
+    </form>
+    {% if result is not none %}
+        <h2>结果: {{ result }}</h2>
+    {% endif %}
+    {% if error %}
+        <p style="color:red;">{{ error }}</p>
+    {% endif %}
+</body>
+</html> 
