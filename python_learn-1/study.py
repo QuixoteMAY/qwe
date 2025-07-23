@@ -1,4 +1,4 @@
-print("hellhfgfdgfdgdfgjjijijijsqdfdwfwsds ihjhjhgoe world")
+print("hellhfgfdgfdgdfgjjijijijgygygygygysqdfdwfwsds ihjhjhgoe world")
 
 
 
