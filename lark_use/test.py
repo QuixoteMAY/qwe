@@ -1,5 +1,5 @@
 print("pringggg" \
-"t helldfdfwfrfredo")
+"t heldedede ldfdfwfrfredo")
 
 
 
